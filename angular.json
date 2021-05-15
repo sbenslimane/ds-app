@@ -31,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/prismjs/prism.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/prismjs/prism.js"
+            ]
           },
           "configurations": {
             "production": {

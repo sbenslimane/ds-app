@@ -5,14 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-
+import { HomeComponent } from './home/home.component';
+import { B2bColorComponent } from './b2b/b2b-color/b2b-color.component';
+import { B2bSidebarComponent } from './b2b/b2b-sidebar/b2b-sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    HomeComponent,
+    B2bColorComponent,
+    B2bSidebarComponent
   ],
   imports: [
     BrowserModule,
